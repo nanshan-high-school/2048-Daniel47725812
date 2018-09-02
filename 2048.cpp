@@ -95,7 +95,7 @@ int main(){
 				for(int j = 0; j < 4; j++){
 					int num;
 					num = easy_game[i][j];
-					gotoxy((2*i)+1,(5*j)+1);
+					gotoxy((2*i)+4,(5*j)+10);
 					if(((num%2)== 0) && num < 10){
 						cout << "000" << number(num);
 					} else if((num > 5) && (num < 11)){
